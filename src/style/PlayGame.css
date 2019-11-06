@@ -1,0 +1,129 @@
+
+.navbar-default {
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+}
+
+.row{
+  margin-left: -1px !important;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.page-header {
+  margin: 6px 0 10px 0;
+  padding-bottom: 9px;
+  border-bottom: 1px solid #eee;
+}
+.header-color{
+  color: #777;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+.container>hr{
+  border-width: 4px;
+  background: black;
+}
+
+.default-home {
+  margin-top: 3em;
+  color: white;
+  font-size: x-large;
+}
+
+.select-button{
+  margin:auto;
+  margin-bottom: 1%;
+  margin-top: 2em;
+  display:block;
+  padding: 8px 36px;
+  border-radius:6px;
+  font-family:helvetica;
+  font-size:16px;
+  font-weight:100;
+  color: black;
+  background: #e68a00;
+  border:0;
+  width: 18em;
+}
+.select-button:hover{
+  background: #994d00;
+  cursor: pointer;
+}
+
+.player-card {
+	width: 12.5rem;
+	height: 12.5rem;
+	margin: 1.25rem;
+	border-radius: 50%;
+	background-color: #ddd;
+	text-align: center;
+	line-height: 12.5rem;
+	position: relative;
+	display: inline-block;
+	border: 2px solid #fff;
+	opacity: 1;
+	background-repeat:no-repeat;
+	background-position: center center;
+}
+
+.vs-span{
+  font-size: 19px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 980px) {
+  .details-column {
+    width: 50%;
+    display: block;
+  }
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+    margin-bottom: 1%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .details-column {
+    width: 100%;
+    display: block;
+  }
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+    margin-bottom: 1%;
+  }
+}
+
